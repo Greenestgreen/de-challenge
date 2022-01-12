@@ -13,7 +13,7 @@ if __name__ == "__main__":
                 .getOrCreate()
     
     
-    spark.sparkContext.setLogLevel("WARN")
+    #spark.sparkContext.setLogLevel("WARN")
     reader = Reader(spark)
     
 

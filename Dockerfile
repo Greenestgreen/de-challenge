@@ -12,7 +12,7 @@ COPY src /ETL/
 
 
 
-ENTRYPOINT [ "spark-submit", "main.py", "--deploy-mode", "client"]
+ENTRYPOINT [ "spark-submit", "main.py"]
 
 
 
