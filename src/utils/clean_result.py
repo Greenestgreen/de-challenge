@@ -1,6 +1,6 @@
 
 from pyspark.sql.functions import current_date, date_format, to_date, when
-from schemas.schema_result import Schema_result
+
 
 class CleanResult():
 
