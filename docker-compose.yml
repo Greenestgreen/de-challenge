@@ -4,5 +4,8 @@ services:
     build: .
     volumes:
       - ./data:/ETL/data
-
+    environment:
+      - INPUT_RESULT=/ETL/data/result.csv
+      - INPUT_CONSOLES=/ETL/data/consoles.csv
+      - OUTPUT_FOLDER=/ETL/data/output
   
