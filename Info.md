@@ -12,7 +12,7 @@ Make sure that docker  sharing volumes in your system is available
 This program consumes the csv files inside the `./data` folder.
 
 ## Output
-The result/output of this program will appear on `./data/exoport` folder.
+The result/output of this program will appear on `./data/export` folder.
 
 ## Testing
 This programs uses `pytest` for testing.
